@@ -15,7 +15,7 @@ CREATE PROC [dbo].[sp_ReadLRQ3]
 @MinMs SMALLINT = 1000 ) 
 
 AS
---test remote 6
+--test remote 8 with push to MJHTest-BuildTest
 
 IF @Endtime IS NULL 
 SET @EndTime = GETDATE() 
