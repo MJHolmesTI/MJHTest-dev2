@@ -14,7 +14,7 @@ CREATE PROC [dbo].[sp_ReadLRQ2]
 @MinMs SMALLINT = 1000 ) 
 
 AS
---test remote 3
+--test remote 10 with sync
 
 IF @Endtime IS NULL 
 SET @EndTime = GETDATE() 
